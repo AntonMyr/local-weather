@@ -1,0 +1,81 @@
+/*
+  THE BASICS
+*/
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  background-color: #000;
+  color: #00FF00;
+}
+
+a {
+  cursor: pointer;
+  cursor: hand;
+  margin-bottom: 10px;
+  color: #EED369;
+
+}
+
+a:hover {
+  color: #fff;
+}
+
+/*
+  HEADER RIGHT HERE
+*/
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.header-h1 {
+  font-size: 2.625em;
+  font-weight: normal;
+}
+
+/*
+  INNER RIGHT HERE
+*/
+.inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.inner-p  {
+  font-size: 1.45em;
+  margin: 10px 0;
+}
+
+.yellow {
+  color: #EED369;
+}
+
+.iconClass {
+
+    position: relative;
+    top: 20px;
+  margin: 0 4px 0 0;
+}
+
+
+
+/*
+  FOOTER
+*/
+footer {
+  margin-top: 22%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+}
+footer p {
+  text-align: center;
+}
